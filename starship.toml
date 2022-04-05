@@ -1,0 +1,22 @@
+[container]
+disabled = true
+
+[character]
+success_symbol = "[❯](blue)"
+
+[username]
+show_always = true
+style_user = ""
+style_root = "bold red"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+format =  "@$hostname "
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+
+[cmd_duration]
+min_time = 10_000
+format = "[$duration]($style) "
