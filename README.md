@@ -13,5 +13,7 @@
 - clone this code
 - softlink the starship.toml in this code to the location it wants:
 ```bash
-ln -s ~/starship_conf/starship.toml ~/.config/starship.toml
+mkdir ~/.config
+mkdir ~/.starship_conf
+ln -s ~/.starship_conf/starship.toml ~/.config/starship.toml
 ```
