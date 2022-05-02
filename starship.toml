@@ -13,7 +13,7 @@ use_os_path_sep = false #when on windows
 [username]
 show_always = true
 style_user = ""
-style_root = "bold red"
+style_root = ""
 format = "[$user]($style)"
 
 [hostname]
