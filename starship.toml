@@ -23,6 +23,11 @@ format =  "@$hostname "
 [git_branch]
 format = "[$symbol$branch]($style) "
 
+[time]
+disabled = false
+style = "blue"
+format = "[$time]($style) "
+
 [cmd_duration]
 min_time = 10_000
 format = "[$duration]($style) "
