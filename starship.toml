@@ -26,6 +26,7 @@ format = "[$symbol$branch]($style) "
 [time]
 disabled = false
 style = "blue"
+use_12hr = true
 format = "[$time]($style) "
 
 [cmd_duration]
